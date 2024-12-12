@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Personal Webpage</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <!-- Link to the external CSS style sheet file. The file path is "css/style.css", which is used to set the styles of the web page, such as fonts, colors, and layouts. -->
+</head>
+
+<body>
+<div class="nav">
+    <!-- Create a div element with the class name "nav", which is usually used for the layout of the navigation bar of the web page. -->
+    <ul>
+        <!-- Use the unordered list tag to build a list of menu items in the navigation bar. -->
+        <li><a href="index.html">Personal Introduction</a></li>
+        <li><a href="xiangce.html">Travel Scenery</a></li>
+        <li><a href="jiaxiang.html">My Hometown</a></li>
+        <li><a href="xuexiao.html">My School</a></li>
+        <li><a href="liuyan.html">Online Messages</a></li>
+    </ul>
+</div>
+<div class="banner"></div>
+<!-- Create an empty div element with the class name "banner", which is used to place a large banner image at the top of the web page. -->
+
+<div class="content">
+    <div class="liuyan">
+        <div class="title">
+            <!-- Use the span tag to display the specific title text "Message Board". -->
+            <span>Message Board</span>
+            <div class="fengexin"></div>
+            <!-- An empty div used to create the effect of a divider line style. -->
+        </div>
+        <div class="ct">
+            <div class="left">
+                <img src="./images/c1.jpg" alt="">
+            </div>
+            <div class="right">
+                <form>
+                    <div>
+                        <label for="yourName">Your Name:</label>
+                        <input type="text" id="yourName" name="yourName">
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" name="email">
+                    </div>
+                    <div>
+                        <label for="relationship">Our Relationship:</label>
+                        <select id="relationship" name="relationship" required>
+                            <option value="">Select</option>
+                            <option value="friend">Friend</option>
+                            <option value="family">Family</option>
+                            <option value="teacher">Teacher</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="wordsToMe">Words You Want to Say to Me:</label>
+                        <input type="text" id="wordsToMe" name="wordsToMe">
+                    </div>
+                    <div>
+                        <button>Send</button>
+                    </div>
+                </form>
+                <div class="clear"></div>
+                <!-- An empty div used to clear the floating style to ensure that the layout of elements is neat and avoid page clutter caused by floating. -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/script.js"></script>
+
+<div class="footer">
+    <!-- The div element in the bottom area of the web page, used to place the content at the bottom. -->
+    Personal Introduction Webpage
+</div>
+
+</body>
+
+
+
+</html>
